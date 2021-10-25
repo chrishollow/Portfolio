@@ -10,6 +10,6 @@
             <header>
                 <h1>Bienvenue sur mon site portfolio</h1>
             </header>
-           
+            <?php include "menu.php";?>
         </div>
     </body>
