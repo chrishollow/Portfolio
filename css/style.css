@@ -1,7 +1,36 @@
-main h1 {
-    /*animation-name: deplaceTitre;*/ /* pour éviter le démarrage */
-    animation-duration: 3s;
-    animation-delay: 1s;
-    animation-iteration-count: 3;
-    animation-fill-mode: forwards;
+#menu {
+	width:1280px;
+	height:50px;
+    margin: 10px 0;
+    position: sticky;
+    top:0px;
+}
+
+#menu ul {
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 50px;
+    background-color:#CCC;
+    padding :0px 75px;
+    margin: 0;
+}
+
+#menu li {
+	list-style-type:none;
+	list-style-position:inside;
+}
+
+#menu a {
+	float:left;
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	width:160px;
+	height:50px;
+	line-height:50px;
+	background-color:#CCC;
+	color: black;
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	font-size:1em;
 }

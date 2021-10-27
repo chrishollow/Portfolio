@@ -1,10 +1,10 @@
-<nav class="menu">
+<nav id="menu">
     <ul>
-        <li><a href="index.php">Accueil</a></li>
-        <li><a href="galerie.php">Galerie</a></li>
-        <li><a href="curriculum.php">Curriculum</a></li>
-        <li><a href="contacts.php">Contacts</a></li>
-        <li><a href="tutoriels.php">Tutoriels</a></li>
-        <li><a href="liens.php">Liens</a></li>
+        <li><a href="./">Accueil</a></li>
+        <li><a href="./?pg=galerie">Galerie</a></li>
+        <li><a href="./?pg=cv">Curriculum</a></li>
+        <li><a href="./?pg=contacts">Contacts</a></li>
+        <li><a href="./?pg=tuto">Tutoriels</a></li>
+        <li><a href="./?pg=liens">Liens</a></li>
     </ul>
 </nav>
