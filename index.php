@@ -34,6 +34,9 @@ if(!isset($_GET['pg'])){
             include_once "pages/liens.php";
 
             break;
+             default:    
+            // chargement de l'accueil
+            include_once "import/homepage.php";
         }
  
 }

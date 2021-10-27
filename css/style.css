@@ -1,5 +1,5 @@
 #menu {
-	width:1280px;
+
 	height:50px;
     margin: 10px 0;
     position: sticky;
@@ -10,7 +10,7 @@
     border-radius: 10px;
     border: 2px solid black;
     height: 50px;
-    background-color:#CCC;
+    background-color:rgb(17, 194, 40);
     padding :0px 75px;
     margin: 0;
 }
@@ -28,7 +28,7 @@
 	width:160px;
 	height:50px;
 	line-height:50px;
-	background-color:#CCC;
+	background-color:rgb(17, 194, 40);
 	color: black;
 	font-family: Arial,sans-serif;
 	font-weight: bold;
