@@ -1,3 +1,6 @@
+            <header>
+                <h1>Bienvenue sur mon site portfolio</h1>
+            </header>
 <nav id="menu">
     <ul>
         <li><a href="./">Accueil</a></li>

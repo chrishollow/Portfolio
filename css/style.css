@@ -1,5 +1,25 @@
-#menu {
+#global {
+    width: 1200px;
+    margin: 0px auto;
+}
+header{
+	background-color: blue;
+}
+header h1 {
+	width: 500px;
+	top: 0;
+	position: relative;
+	color: white;
+	animation: textslide 7s linear 0s infinite ;
+}
 
+@keyframes textslide {
+	0% {left:-500px;}
+	100% {left:1200px;}
+}
+
+#menu {
+	width: 1200px;
 	height:50px;
     margin: 10px 0;
     position: sticky;
@@ -30,7 +50,14 @@
 	line-height:50px;
 	background-color:rgb(17, 194, 40);
 	color: black;
-	font-family: Arial,sans-serif;
+	font-family: 'Courier New', Courier, monospace;
 	font-weight: bold;
 	font-size:1em;
+}
+
+#menu a:hover {
+	background-color: turquoise;
+	color:blue;
+	font-style: italic;
+	text-transform: uppercase;
 }
