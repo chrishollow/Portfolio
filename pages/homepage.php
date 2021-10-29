@@ -11,7 +11,7 @@
             <?php include "menu.php";?>
 
         <main>
-            <h1>Qui suis-je ?</h1>
+            <h1>Christian BOKOTO</h1>
             
         </main>
 
