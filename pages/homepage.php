@@ -10,9 +10,10 @@
         <div id="global">
             <?php include "menu.php";?>
 
-        <main>
+        <main class="intro">
+        <h1>Qui suis-je ? Que fais-je ? Où vais-je ?</h1>
             <article>
-            <h1>Qui suis-je ? Que fais-je ? Où vais-je ?</h1>
+
             
             <p>En 2021 ma volonté de vouloir développer des compétences dans le domaine du digital, s'est soldée par une décision d'entreprendre une formation en développement web.
             J'aimerais être un genre de codeur polyvalent, tant dans la partie structural que dans le design.</p>

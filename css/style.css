@@ -1,9 +1,17 @@
-#global {
-    width: 1200px;
-	height: 800px;
-    margin: 0px auto;
-	background-color: wheat;
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+
+body {
+	background-color: rgba(2,11,23,1);
 }
+
+#global {
+    width: 1500px;
+	height: 1500px;
+    margin: 0px auto;
+
+	background: radial-gradient(circle, rgba(59,153,109,1) 0%, rgba(2,11,23,1) 70%);
+}
+
 header{
 	background-color: blue;
 }
@@ -21,7 +29,7 @@ header h1 {
 }
 
 #menu {
-	width: 1200px;
+	width:auto;
 	height:50px;
     margin: 0px 0;
     position: sticky;
@@ -62,4 +70,21 @@ header h1 {
 	color:blue;
 	font-style: italic;
 	text-transform: uppercase;
+}
+
+.intro {
+	display: grid;
+}
+.intro h1 {
+	font-family: 'Zen Antique Soft', serif;
+}
+
+h1 {
+	color: blanchedalmond;
+}
+
+
+p{
+	color: blanchedalmond;
+
 }
