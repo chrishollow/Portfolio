@@ -9,12 +9,14 @@
 
         <div id="global">
             <?php include "menu.php";?>
-
+        <aside>
+        <h1>Christian BOKOTO</h1>
+        <p></p>
+        </aside>
         <main class="intro">
-        <h1>Qui suis-je ? Que fais-je ? Où vais-je ?</h1>
+        
+        <h1>Qui suis-je ? Que fais-je ? Où vais-je ??</h1>
             <article>
-
-            
             <p>En 2021 ma volonté de vouloir développer des compétences dans le domaine du digital, s'est soldée par une décision d'entreprendre une formation en développement web.
             J'aimerais être un genre de codeur polyvalent, tant dans la partie structural que dans le design.</p>
             <p>Après cette formation, mon projet serait de pouvoir louer mes compétences en tant que développeur web à mes amis et connaissances qui ont un business ou une passion. Lorsque j’arriverai à créer et à entretenir correctement un site web, je postulerai pour un emploi en entreprise.</p>

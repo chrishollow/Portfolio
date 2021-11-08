@@ -8,7 +8,12 @@
     <body>
 
         <div id="global">
+        <?php include "menu.php";?>
 
-            <?php include "menu.php";?>
+        <main class="galerietext">
+        <h1></h1>
+        </main>
+
+
         </div>
     </body>

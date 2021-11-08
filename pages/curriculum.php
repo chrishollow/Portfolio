@@ -8,7 +8,15 @@
     <body>
 
         <div id="global">
+        <?php include "menu.php";?>
 
-            <?php include "menu.php";?>
+        <main class="Cvtext">
+        
+        <article>
+        <img src="/images/CV-image.png" alt="Curriculum Vitae">
+        </article>
+        
+        </main>
+         
         </div>
     </body>
