@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
     <body>
-
+  
         <div id="global">
         <?php include "menu.php";?>
         <main class="textuto">

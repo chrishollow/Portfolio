@@ -1,0 +1,16 @@
+#sidebar { float: left; width: 290px; background-color: rgb(36, 147, 155); padding: 70px 40px 0 40px; height: 100%; }
+#sidebar h1 { font-size: 26px; color: #555; margin: 0 0 8px 0; letter-spacing: -1px; }
+#sidebar h2 { font-size: 24px; color: #ccc; letter-spacing: -1px;  }
+#sidebar h3 { font-size: 16px; margin: 0 0 10px 0; }
+#sidebar a { color: #f34607; }
+#sidebar a:hover { color: #222; }
+#status { font-size: 13px; }
+#sidebar #status span { font-style: italic; }
+
+
+#nav { margin: 30px 0 0 0; overflow: hidden; border-top: 1px #eee solid; border-bottom: 1px #eee solid; padding: 5px 0; list-style: none; }
+#nav li { float: left; font-size: 12px; padding: 0 0 0 0; text-decoration: none; color: #555; }
+#nav span { padding: 0 10px; }
+#nav li a { color: #555; }
+#nav li a:hover { color: #f34607; }
+#nav li.current a { color: #f34607; }
