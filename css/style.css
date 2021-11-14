@@ -10,31 +10,36 @@ body {
 }
 
 #global {
-    width: 1500px;
+    width: 2000px;
 	height: 1500px;
-    margin: 0px auto;
+	top: 50px;
+    margin: 50px auto;
 
 	background: radial-gradient(circle, rgba(59,153,109,1) 0%, rgba(2,11,23,1) 70%);
 }
 
 header{
+	position: fixed;
 	background-color: blue;
-	width: 1500px;
-	margin: 0px auto;
+	width: 2000px;
+	height: 50px;
+	margin: 0px 0;
 	top: 0;
 }
 
 header h1 {
-	top: 0;
-	position: relative;
+	position: fixed;
+	top: -45px;
+	width: auto;
 	color: white;
-	animation: textslide 7s linear 0s infinite ;
+	animation: textslide 10s linear 0s infinite ;
 	font-family: 'Dongle', sans-serif;
 	font-size: 50px;
+	text-align: center;
 }
 
 @keyframes textslide {
-	0% {left:-500px;}
+	0% {left:-2000px;}
 	100% {left:1200px;}
 }
 
@@ -44,7 +49,7 @@ header h1 {
     margin: 0px 0;
     position: sticky;
     top:0px;
-	place-items: center;
+
 }
 
 #menu ul {
@@ -54,6 +59,7 @@ header h1 {
     background-color:rgb(64, 148, 75);
     padding :0px 75px;
     margin: 0;
+	text-align: center;
 }
 
 #menu li {
@@ -102,11 +108,57 @@ header h1 {
 	
 	
 }
+
+.static {
+	display: block;
+	max-width: 500px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
+	 
+}
+
+.relative {
+	display: block;
+	max-width: 500px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
+}
+
+.absolute {
+	display: block;
+	max-width: 500px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
+}
+
+.fixed {
+	display: block;
+	max-width: 500px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
+}
+
+.sticky {
+	display: block;
+	max-width: 500px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
+}
 	
 
 h1 {
 	color: blanchedalmond;
 	font-family: 'Zen Antique Soft', serif;
+}
+
+h2 {
+	color: lavender;
+	font-family: monospace
 }
 
 
