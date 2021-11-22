@@ -10,13 +10,13 @@
         <div id="global">
         <?php include "menu.php";?>
 
-        <main class="Cvtext">
         
-        <article>
-        <img src="/images/CV-image.png" alt="Curriculum Vitae">
+        
+        <article class="articleCV">
+        <img src="/images/CV-image.png" alt="Curriculum Vitae" width="100%">
         </article>
         
-        </main>
+        
          
         </div>
     </body>

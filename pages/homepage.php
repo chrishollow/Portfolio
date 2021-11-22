@@ -11,7 +11,13 @@
 
         <aside>
         <h1>Christian BOKOTO</h1>
-        <p></p>
+        <p>My name is Christian Bokoto, welcome to my portfolio website.</p>
+        <p>I'll start by introducing myself... I'll do it in English to show of my writing skills. I'm a young man of 24 years old who has decided to become a web developer.
+        <br>
+        I've always been interested in technology and I've tried in the past to learn some computering languages but never seriously. This year I inspire to acquire real coding skills.
+        <br>
+        More personally, I'm a pretty resilient person who's not afraid of tough challenges. My friends think I'm hilarious and amazingly kind. I never miss a chance to party maybe because I love music beyond everything, I also love silence which is to me the sweetest melody I always say.
+        </p>
         </aside>
         <main class="intro">
         

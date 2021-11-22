@@ -14,3 +14,8 @@
 #nav li a { color: #555; }
 #nav li a:hover { color: #f34607; }
 #nav li.current a { color: #f34607; }
+
+.textuto {
+    display: grid;
+    grid-template-columns: 4;
+}
