@@ -133,7 +133,7 @@ header h1 {
 	height:50px;
     margin: 0px 0;
     position: sticky;
-    top: 50px;
+    top:50px;
 
 }
 
@@ -196,7 +196,7 @@ header h1 {
 
 .static {
 	display: block;
-	max-width: 500px;
+	max-width: 800px;
 	border-width: 3px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
@@ -205,35 +205,86 @@ header h1 {
 
 .relative {
 	display: block;
-	max-width: 500px;
+	max-width: 800px;
 	border-width: 3px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
+}
+
+.exRelative{
+	position: relative;
+	right:50px ;
+	
+	max-width: 800px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, yellow, black ) 1 100%;
 }
 
 .absolute {
 	display: block;
-	max-width: 500px;
+	max-width: 800px;
 	border-width: 3px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
 }
+
+.exAbsolute {
+	position: absolute;
+	right:50px ;
+	
+	max-width: 800px;
+	border-width: 3px;
+	border-style : solid;
+	border-image: linear-gradient(to bottom, yellow, black ) 1 100%;
+}
+
 
 .fixed {
 	display: block;
-	max-width: 500px;
+	max-width: 800px;
 	border-width: 3px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
 }
 
+.exFixed {
+	position: fixed;
+	right:50px ;
+	
+	max-width: 800px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, yellow, black ) 1 100%;
+}
+
+
 .sticky {
 	display: block;
-	max-width: 500px;
+	max-width: 800px;
 	border-width: 3px;
 	border-style: solid;
 	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
 }
+
+.exSticky {
+	position: sticky ;
+	right:50px ;
+	
+	max-width: 800px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, yellow, black ) 1 100%;
+}
+
+.comparaison {
+	display: block;
+	max-width: 800px;
+	border-width: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom,blue, black ) 1 100%;
+}
+
 	
 
 h1 {
