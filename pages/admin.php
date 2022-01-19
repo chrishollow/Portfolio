@@ -2,17 +2,17 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Portfolio - Curriculum</title>
+        <title>Portfolio - Contact</title>
         <meta charset="UTF-8" />
 
         <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
-    <body>
+    <body class="admin">
 
     <?php include "menu.php";?>
 
         <div class="title">
-            <h1>Mon Curriculum Vitae</h1>
+            <h1>Admin</h1>
         </div>
 
         <div class= "container">
@@ -20,10 +20,15 @@
             <div class="container_content">
             <div class="container_content_inner">
 
-                <main class="contactez-nous">
-                    <img src="../images/CV-image.png" alt="Curriculum Vitae" width="500">
-                </main>
-
+                <div class="main">
+                    <p class="sign">Log in</p>
+                    <form class="form1">
+                      <input class="un" type="text" placeholder="Username">
+                      <input class="pass" type="password" placeholder="Password">
+                      <a class="submit" >Sign in</a>
+                      <p class="forgot" ><a href="#">Forgot Password?</a></p>
+                    </form>              
+                </div>
 
             </div>
             </div> 
@@ -41,7 +46,6 @@
             </div>
 
             </div>
-
 
 </body>
 </html>

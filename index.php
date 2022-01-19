@@ -34,6 +34,10 @@ if(!isset($_GET['pg'])){
             include_once "pages/liens.php";
 
             break;
+        case "admin":
+            include_once "pages/admin.php"
+
+            break;
              default:    
             // chargement de l'accueil
             include_once "import/homepage.php";
