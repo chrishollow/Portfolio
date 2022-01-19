@@ -5,7 +5,7 @@
         <title>Portfolio - Homepage</title>
         <meta charset="UTF-8" />
 
-        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     </head>
     <body>
 
